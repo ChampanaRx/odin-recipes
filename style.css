@@ -2,23 +2,33 @@
 body{
 background: lightblue;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 25px;
+margin: 10px;
+padding: 10px;
 }
 
 #tittle{
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 40px;
+  font-size: 60px;
   letter-spacing: 5px;
   word-spacing: 10px;
   text-decoration: underline;
+  margin-bottom: 40px;
+  color: salmon;
 
 }
 
 h2{
-  margin: 0;
-  padding: 0;
+  margin: 2px;
+  padding: 5px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: black;
+  color: salmon;
+  border: 5px;
+  border-color: black;
+  font-size: 30px;
+  margin-left: 310px;
+
 
 }
 
@@ -27,14 +37,39 @@ h2{
 .plate-name {
   font-weight: 800px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 30px;
+  font-size: 40px;
+  color: black;
+  
+  
+}
+
+#description {
+  width: 70%;
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+  background-color:rgb(76, 85, 103);
+  color:  white;
+  font-size: 25px;
+
+ 
+
 }
 
 .home{
-  padding: 5px;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   float: right;
   border: 10px;
   background-color: black;
+  padding: 5px;
+}
+.flex-container {
+  display: flex;
+  
+
+}
+.flex-items {
+  display: flex;
+  flex: 10px;
 }
